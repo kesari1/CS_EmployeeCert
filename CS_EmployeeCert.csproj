@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Deltek.Framework.API.Server">
+      <HintPath>D:\VS-Dev\Library\Deltek.Framework.API.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Deltek.Framework.Workflow.Server">
+      <HintPath>D:\VS-Dev\Library\Deltek.Framework.Workflow.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Deltek.Vision.Ancestors.Server">
+      <HintPath>D:\VS-Dev\Library\Deltek.Vision.Ancestors.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Deltek.Vision.WorkflowAPI.Server">
+      <HintPath>D:\VS-Dev\Library\Deltek.Vision.WorkflowAPI.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client">
+      <HintPath>D:\VS-Dev\Library\Microsoft.SharePoint.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime">
+      <HintPath>D:\VS-Dev\Library\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.WorkflowServices">
+      <HintPath>D:\VS-Dev\Library\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
